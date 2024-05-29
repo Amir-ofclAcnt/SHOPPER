@@ -40,10 +40,28 @@ const CartItems = () => {
                   alt=""
                 />
               </div>
+              <hr />
             </div>
           );
         }
+        return null;
       })}
+      <div className="cartitems-down">
+        <div className="cartitems-total">
+          <h1>Cart Totals</h1>
+          <div>
+            <div className="cartitems-total-item">
+              <p>Subtotal</p>
+              <p>$0</p>
+            </div>
+            <hr />
+            <div className="cartitems-total-item">
+              <p>Shipping Fee</p>
+              <p>Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
