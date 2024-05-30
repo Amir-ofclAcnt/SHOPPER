@@ -55,10 +55,25 @@ const CartItems = () => {
               <p>$0</p>
             </div>
             <hr />
+
             <div className="cartitems-total-item">
               <p>Shipping Fee</p>
               <p>Free</p>
             </div>
+            <hr />
+
+            <div className="cartitems-total-item">
+              <p>Total</p>
+              <p>${0}</p>
+            </div>
+          </div>
+          <button>Proceed To Checkout</button>
+        </div>
+        <div className="cartitems-promocode">
+          <p>If you have a promo code, enter it here</p>
+          <div className="cartitems-promobox">
+            <input type="text" placeholder="Promo Code" />
+            <button>Submit</button>
           </div>
         </div>
       </div>

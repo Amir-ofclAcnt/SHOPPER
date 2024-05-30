@@ -36,3 +36,17 @@
     border: 2px solid rgb(220, 220, 220);
     background-color: white;
 }
+.cartitems-down{
+    display: flex;
+    margin: 100px 0;
+
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+    
+    
+}
