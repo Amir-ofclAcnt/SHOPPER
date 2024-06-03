@@ -2,8 +2,8 @@
   height: 100vh;
   background: linear-gradient(
     180deg,
-    rgb(231, 231, 231) 0%,
-    rgba(254, 254, 254, 0.766) 60%
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0.766) 60%
   );
   display: flex;
 }
