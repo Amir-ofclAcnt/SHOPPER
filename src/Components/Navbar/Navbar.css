@@ -5,9 +5,14 @@
   box-shadow: 0 1px 3px -2px black;
 }
 .nav-logo {
+
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.nav-f-logo{
+  width: 70px;
+  height: 80px;
 }
 .nav-logo p {
   color: rgb(61, 61, 61);
