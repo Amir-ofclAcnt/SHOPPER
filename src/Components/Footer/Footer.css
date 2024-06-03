@@ -10,6 +10,10 @@
   align-items: center;
   gap: 20px;
 }
+.footer-logo-img{
+  width: 400px;
+  height: 100px;
+}
 .footer-logo p {
   color: rgb(60, 60, 60);
   font-size: 46px;

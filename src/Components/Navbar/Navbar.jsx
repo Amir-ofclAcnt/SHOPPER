@@ -13,7 +13,6 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img className="nav-f-logo" src={logo} alt="" />
-        <p>Shopper</p>
       </div>
       <ul className="nav-menu">
         <li
