@@ -23,16 +23,23 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 80px;
 }
-.shopcategory-loadmore{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 150px auto;
-    width: 333px;
-    height: 69px;
-    border-radius: 75px;
-    border: 1px solid black;
-    color: rgb(72, 72, 72);
-    font-size: 18px;
-    font-weight: 500;
+
+.explore-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 333px;
+  height: 69px;
+  border-radius: 75px;
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
+
+
+
+
