@@ -52,6 +52,7 @@
 }
 .loginsignup-login span {
   color: rgb(0, 0, 255);
+  cursor: pointer;
 }
 .loginsignup-agree {
   display: flex;
