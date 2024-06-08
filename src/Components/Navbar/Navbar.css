@@ -56,16 +56,16 @@
   width: 157px;
   height: 58px;
   outline: none;
-  border: 1px solid grey;
+  border: none;
   border-radius: 75px;
-  color: rgb(38, 38, 38);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 500;
-  background-color: white;
+  background-color: rgb(60, 60, 60);
   cursor: pointer;
 }
-.nav-login-cart button:active {
-  background-color: rgb(239, 239, 239);
+.nav-login-cart button:hover {
+    background-color: rgb(40, 40, 40);
 }
 .nav-cart-count {
   width: 22px;

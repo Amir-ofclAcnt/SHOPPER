@@ -55,38 +55,41 @@
   height: 58px;
   outline: none;
   border: none;
-  background: rgb(60, 60, 60);
+  background: #3c3c3c;
   color: white;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 5px;
 }
 .cartitems-promocode {
   flex: 1;
   font-size: 16px;
   font-weight: 500;
 }
-.cartitems-promobox{
-    width: 504px;
-    margin-top: 15px;
-    padding-left: 20px;
-    height: 58px;
-    background-color: rgb(225, 225, 225);
+.cartitems-promobox {
+  width: 504px;
+  margin-top: 15px;
+  padding-left: 20px;
+  height: 58px;
+  background-color: rgb(225, 225, 225);
+  border-radius: 5px;
 }
-.cartitems-promobox input{
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 16px;
-    width: 330px;
-    height: 50px;
+.cartitems-promobox input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  width: 330px;
+
 }
-.cartitems-promobox button{
-    width: 170px;
-    height: 58px;
-    font-size: 16px;
-    background-color: rgb(60, 60, 60);
-    color: white;
-    cursor: pointer;
-    border: none;
+.cartitems-promobox button {
+  width: 170px;
+  height: 58px;
+  font-size: 16px;
+  background-color: #3c3c3c;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 5px 5px 0;
 }

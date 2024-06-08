@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           <Link to="/" style={{ textDecoration: "none" }}>
             Shop
-          </Link>{" "}
+          </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
 

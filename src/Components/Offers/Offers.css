@@ -30,13 +30,17 @@
   width: 282px;
   height: 70px;
   border-radius: 35px;
-  background-color: rgb(220, 0, 0);
+  background-color: rgb(230, 0, 0);
   border: none;
   color: white;
   font-size: 22px;
   font-weight: 500;
   margin-top: 30px;
   cursor: pointer;
+}
+.offers-left button:hover{
+  background-color: rgb(250, 0, 0);
+
 }
 .offers-right {
   flex: 1;
