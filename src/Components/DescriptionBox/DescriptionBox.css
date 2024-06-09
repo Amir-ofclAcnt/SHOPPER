@@ -15,16 +15,16 @@
   border: 1px solid #d0d0d0;
 }
 .descriptionbox-nav-box:hover {
-  color: black;
   cursor: pointer;
 }
 .descriptionbox-nav-box.fade:hover {
   color: black;
+  background-color: #f0f0f0;
   cursor: pointer;
 }
-.descriptionbox-nav-box.fade {
-  background-color: white;
-  color: grey;
+.descriptionbox-nav-box.fade{
+    background-color: white;
+    color: grey;
 }
 .descriptionbox-description {
   display: flex;

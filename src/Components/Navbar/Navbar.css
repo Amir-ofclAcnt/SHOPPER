@@ -5,12 +5,11 @@
   box-shadow: 0 1px 3px -2px black;
 }
 .nav-logo {
-
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.nav-f-logo{
+.nav-f-logo {
   width: 200px;
   height: 50px;
   cursor: pointer;
@@ -69,7 +68,7 @@
   cursor: pointer;
 }
 .nav-login-cart button:hover {
-    background-color: rgb(40, 40, 40);
+  background-color: rgb(40, 40, 40);
 }
 .nav-cart-count {
   width: 22px;
@@ -84,5 +83,17 @@
   background-color: red;
   color: white;
   cursor: pointer;
+}
 
+@media only screen and (max-width: 960px) {
+  .nav-f-logo {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .nav-login-cart button {
+    width: 137px;
+    height: 50px;
+    
+  }
 }

@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 1440px) {
   .popular-item {
-    gap: 10px;
+    gap: 0;
   }
 }
